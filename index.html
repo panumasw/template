@@ -8,7 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" type="text/css"
-    href="//fonts.googleapis.com/css?family=Poppins:300,300i,400,500,600,700,800,900,900i%7CPT+Serif:400,700">
+    href="http://fonts.googleapis.com/css?family=Poppins:300,300i,400,500,600,700,800,900,900i%7CPT+Serif:400,700">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/style.css">
@@ -55,9 +55,10 @@
                 <!-- RD Navbar Panel-->
                 <div class="rd-navbar-panel">
                   <!-- RD Navbar Toggle-->
-                  <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                  <button class="rd-navbar-toggle"
+                    data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span>test</span></button>
                   <!-- RD Navbar Brand-->
-                  <div class="rd-navbar-brand"><a href="index.html"><img class="brand-logo-light"
+                  <div class="rd-navbar-brand"><a title="home" href="/"><img class="brand-logo-light"
                         src="images/logo-default1-140x57.png" alt="" width="140" height="57"
                         srcset="images/logo-default-280x113.png 2x" /></a></div>
                 </div>
@@ -120,13 +121,13 @@
                   <p class="booking-title">Date</p>
                   <div class="form-wrap form-wrap-icon"><span class="icon mdi mdi-calendar-text"></span>
                     <input class="form-input" id="booking-date" type="text" name="date" data-constraints="@Required"
-                      data-time-picker="date">
+                      placeholder="choose date" data-time-picker="date">
                   </div>
                 </div>
                 <div>
                   <p class="booking-title">no. of people</p>
                   <div class="form-wrap">
-                    <select data-placeholder="2">
+                    <select aria-label="test" data-placeholder="2">
                       <option label="placeholder"></option>
                       <option>1</option>
                       <option>2</option>
@@ -173,24 +174,24 @@
           <div class="row justify-content-center text-center">
             <div class="col-md-9 col-lg-7 wow-outer">
               <div class="wow slideInDown">
-                <h2>Featured Offers</h2>
-                <p class="text-opacity-80">We offer a great variety of the best Italian dishes to our visitors and
-                  guests.
-                  Below are some of our most popular main dishes and desserts.</p>
+                <h2>ข้อเสนอแนะ-ให้คำปรึกษา</h2>
+                <p class="text-opacity-80">เรามีความยินดีให้คำปรึกษา แนะนำวางแผนอนาคตของคุณ เพื่อชีวิตที่สดใส
+                  ไร้ข้อกังวล</p>
               </div>
             </div>
           </div>
           <div class="row row-20 row-lg-30">
+
             <div class="col-md-6 col-lg-4 wow-outer">
               <div class="wow fadeInUp">
                 <div class="product-featured">
-                  <div class="product-featured-figure"><img src="images/product-1-370x395.jpg" alt="" width="370"
+                  <div class="product-featured-figure"><img src="images/product-2-370x395.jpg" alt="" width="370"
                       height="395" />
-                    <div class="product-featured-button"><a class="button button-primary" href="#">order now</a></div>
+                    <div class="product-featured-button"><a class="button button-primary" href="#">ติดต่อด่วน</a></div>
                   </div>
                   <div class="product-featured-caption">
-                    <h4><a class="product-featured-title" href="#">Ravioli</a></h4>
-                    <p class="big">$8</p>
+                    <h4><a class="product-featured-title" href="#">สวัสดิการของพนักงาน</a></h4>
+                    <p class="big">เริ่มต้น 300 บาทต่อคน</p>
                   </div>
                 </div>
               </div>
@@ -198,9 +199,51 @@
             <div class="col-md-6 col-lg-4 wow-outer">
               <div class="wow fadeInUp">
                 <div class="product-featured">
-                  <div class="product-featured-figure"><img src="images/product-2-370x395.jpg" alt="" width="370"
+                  <div class="product-featured-figure"><img src="images/product-3-370x395.jpg" alt="" width="370"
                       height="395" />
-                    <div class="product-featured-button"><a class="button button-primary" href="#">order now</a></div>
+                    <div class="product-featured-button"><a class="button button-primary" href="#">ติดต่อด่วน</a></div>
+                  </div>
+                  <div class="product-featured-caption">
+                    <h4><a class="product-featured-title" href="#">ลดภาษีธุรกิจ</a></h4>
+                    <p class="big">มากกว่า 40%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 wow-outer">
+              <div class="wow fadeInUp">
+                <div class="product-featured">
+                  <div class="product-featured-figure"><img src="images/product-4-370x395.jpg" alt="" width="370"
+                      height="395" />
+                    <div class="product-featured-button"><a class="button button-primary" href="#">ติดต่อด่วน</a></div>
+                  </div>
+                  <div class="product-featured-caption">
+                    <h4><a class="product-featured-title" href="#">วางแผนงบการเงิน</a></h4>
+                    <p class="big">Save 40%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 wow-outer">
+              <div class="wow fadeInUp">
+                <div class="product-featured">
+                  <div class="product-featured-figure"><img src="images/product-5-370x395.jpg" alt="" width="370"
+                      height="395" />
+                    <div class="product-featured-button"><a class="button button-primary" href="#">ติดต่อด่วน</a></div>
+                  </div>
+                  <div class="product-featured-caption">
+                    <h4><a class="product-featured-title" href="#">สวัสดิการต่อเนื่อง</a></h4>
+                    <p class="big">คุ้มครองสูงสุด 10 ล้านบาท</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 wow-outer">
+              <div class="wow fadeInUp">
+                <div class="product-featured">
+                  <div class="product-featured-figure"><img src="images/product-6-370x395.jpg" alt="" width="370"
+                      height="395" />
+                    <div class="product-featured-button"><a class="button button-primary" href="#">ติดต่อด่วน</a></div>
                   </div>
                   <div class="product-featured-caption">
                     <h4><a class="product-featured-title" href="#">Black Pasta</a></h4>
@@ -212,18 +255,19 @@
             <div class="col-md-6 col-lg-4 wow-outer">
               <div class="wow fadeInUp">
                 <div class="product-featured">
-                  <div class="product-featured-figure"><img src="images/product-3-370x395.jpg" alt="" width="370"
+                  <div class="product-featured-figure"><img src="images/product-1-370x395.jpg" alt="" width="370"
                       height="395" />
-                    <div class="product-featured-button"><a class="button button-primary" href="#">order now</a></div>
+                    <div class="product-featured-button"><a class="button button-primary" href="#">ติดต่อด่วน</a></div>
                   </div>
                   <div class="product-featured-caption">
-                    <h4><a class="product-featured-title" href="#">Gelato</a></h4>
-                    <p class="big">$4</p>
+                    <h4><a class="product-featured-title" href="#">Black Pasta</a></h4>
+                    <p class="big">$13</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+
         </div>
       </section>
       <section class="section section-lg bg-gray-1">
@@ -506,7 +550,7 @@
         <div class="container wow-outer">
           <div class="wow fadeIn">
             <div class="row row-60">
-              <div class="col-12"><a href="index.html"><img src="images/logo-default1-140x57.png" alt="" width="140"
+              <div class="col-12"><a title="home" href="/"><img src="images/logo-default1-140x57.png" alt="" width="140"
                     height="57" srcset="images/logo-default-280x113.png 2x" /></a></div>
               <div class="col-12">
                 <ul class="footer-minimal-nav">
@@ -519,12 +563,17 @@
               </div>
               <div class="col-12">
                 <ul class="social-list">
-                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-facebook" href="#"></a></li>
-                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-instagram" href="#"></a></li>
-                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-twitter" href="#"></a></li>
-                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-youtube-play" href="#"></a>
+                  <li><a title="facebook" class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-facebook"
+                      href="#"></a></li>
+                  <li><a title="instagram" class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-instagram"
+                      href="#"></a></li>
+                  <li><a title="twitter" class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-twitter"
+                      href="#"></a></li>
+                  <li><a title="youtube" class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-youtube-play"
+                      href="#"></a>
                   </li>
-                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-pinterest-p" href="#"></a></li>
+                  <li><a title="pinterest" class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-pinterest-p"
+                      href="#"></a></li>
                 </ul>
               </div>
             </div>

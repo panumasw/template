@@ -5814,6 +5814,7 @@ html [class*='section-'].section-bottom-0 {
   opacity: 0.4;
 }
 
+
 @media (min-width: 1200px) {
   .section-main-bunner .main-bunner-img {
     left: -100px;
@@ -13923,8 +13924,6 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
   box-sizing: border-box;
 }
 
-
-
 .has-error .select2-container {
   outline: 1px dashed red;
 }
@@ -13993,7 +13992,6 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
   width: 100%;
   box-sizing: border-box;
 }
-
 
 .select2-search--dropdown.select2-search--hide {
   display: none;
